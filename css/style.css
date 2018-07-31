@@ -1,3 +1,7 @@
+*{
+  color: white;
+}
+
 .nav_logo{
   height: 60px;
   width: 80px;
@@ -12,6 +16,7 @@
 }
 
 #apprendre{
+  padding: 20px;
   background-image: url("../img/img_1_color.jpeg");
   background-size: cover;
   -webkit-filter: grayscale(100%);
@@ -23,7 +28,12 @@
   transition: 1s;
 }
 
+page_1{
+ size: 100vw;
+}
+
 #projet{
+  padding: 20px;
   background-image: url("../img/img_2_color.jpg");
   background-size: cover;
   -webkit-filter: grayscale(100%);
@@ -36,6 +46,7 @@
 }
 
 #stagiaire{
+  padding: 20px;
   background-image: url("../img/img_3_color.jpg");
   background-size: cover;
   -webkit-filter: grayscale(100%);
@@ -48,6 +59,7 @@
 }
 
 #aider{
+  padding: 20px;
   background-image: url("../img/img_4_color.jpg");
   background-size: cover;
   -webkit-filter: grayscale(100%);
