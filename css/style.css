@@ -10,3 +10,51 @@
 .slider{
   height: 300px !important;
 }
+
+#apprendre{
+  background-image: url("../img/img_1_color.jpeg");
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  transition: 1s;
+}
+
+#apprendre:hover{
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
+}
+
+#projet{
+  background-image: url("../img/img_2_color.jpg");
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  transition: 1s;
+}
+
+#projet:hover{
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
+}
+
+#stagiaire{
+  background-image: url("../img/img_3_color.jpg");
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  transition: 1s;
+}
+
+#stagiaire:hover{
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
+}
+
+#aider{
+  background-image: url("../img/img_4_color.jpg");
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  transition: 1s;
+}
+
+#aider:hover{
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
+}
