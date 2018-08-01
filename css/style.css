@@ -3,71 +3,92 @@
   font-family: roboto;
 }
 
+.row{
+  margin: 0px;
+}
+
 .nav_logo {
-  height: 60px;
-  width: 80px;
+  max-height: 60px;
+  max-width: 80px;
 }
 
-.nav-wrapper {
-  margin-top: calc(100vh - 64px) !important;
+li.indicator-item.active{
+
 }
 
-.slider {
-  height: calc(100vh - 64px) !important;
+#apprendre, #projet, #stagiaire, #aider{
+  min-height: calc(100vh - 64px);
+  padding: 20px;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  transition: 1s;
+}
+
+#apprendre:hover, #projet:hover, #stagiaire:hover, #aider:hover{
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
 }
 
 #apprendre {
-  min-height: calc(100vh - 64px);
-  padding: 20px;
   background-image: url("../img/img_1_color.jpeg");
-  background-size: cover;
-  -webkit-filter: grayscale(100%);
-  transition: 1s;
-}
-
-#apprendre:hover {
-  -webkit-filter: grayscale(0%);
-  transition: 1s;
 }
 
 #projet {
-  min-height: calc(100vh - 64px);
-  padding: 20px;
   background-image: url("../img/img_2_color.jpg");
-  background-size: cover;
-  -webkit-filter: grayscale(100%);
-  transition: 1s;
-}
-
-#projet:hover {
-  -webkit-filter: grayscale(0%);
-  transition: 1s;
 }
 
 #stagiaire {
-  min-height: calc(100vh - 64px);
-  padding: 20px;
   background-image: url("../img/img_3_color.jpg");
-  background-size: cover;
-  -webkit-filter: grayscale(100%);
-  transition: 1s;
-}
-
-#stagiaire:hover {
-  -webkit-filter: grayscale(0%);
-  transition: 1s;
 }
 
 #aider {
-  min-height: calc(100vh - 64px);
-  padding: 20px;
   background-image: url("../img/img_4_color.jpg");
-  background-size: cover;
-  -webkit-filter: grayscale(100%);
-  transition: 1s;
 }
 
-#aider:hover {
-  -webkit-filter: grayscale(0%);
-  transition: 1s;
+.btn-floating{
+  position: fixed;
+  margin-left: 10px;
+  bottom: 10px;
+
+}
+
+
+
+@media screen and (max-width: 600px){
+ #apprendre, #projet, #stagiaire, #aider{
+   min-height: 25vh;
+ }
+ .nav-wrapper {
+   margin-top: 0vh !important;
+ }
+
+ .slider {
+   height: 0vh !important;
+ }
+}
+
+@media screen and (min-width: 600px){
+ #apprendre, #projet, #stagiaire, #aider{
+   min-height: 50vh;
+ }
+ .nav-wrapper {
+   margin-top: 0vh !important;
+ }
+
+ .slider {
+   height: 0vh !important;
+ }
+}
+
+@media screen and (min-width: 992px){
+ #apprendre, #projet, #stagiaire, #aider{
+   min-height: 100vh;
+ }
+ .nav-wrapper {
+   margin-top: calc(100vh - 64px) !important;
+ }
+
+ .slider {
+   height: calc(100vh - 64px) !important;
+ }
 }
