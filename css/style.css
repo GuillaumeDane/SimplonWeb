@@ -1,3 +1,5 @@
+/* ==== Master ====*/
+
 * {
   color: white;
   font-family: roboto;
@@ -7,14 +9,27 @@
   margin: 0px;
 }
 
+.video_header{
+  height: calc(100vh - 64px);
+  width: 100wh;
+}
+
+/* ==== Nav ====*/
+
 .nav_logo {
   max-height: 60px;
   max-width: 80px;
 }
 
-li.indicator-item.active{
+/* ==== Video ====*/
 
+.img_video{
+  max-height: 350px;
+  max-width: 400px;
+  margin-top: 50px;
 }
+
+/* ==== Main ====*/
 
 #apprendre, #projet, #stagiaire, #aider{
   min-height: calc(100vh - 64px);
@@ -45,6 +60,10 @@ li.indicator-item.active{
   background-image: url("../img/img_4_color.jpg");
 }
 
+/* ==== Footer ====*/
+
+/* ==== Contact ====*/
+
 .btn-floating{
   position: fixed;
   margin-left: 10px;
@@ -52,18 +71,17 @@ li.indicator-item.active{
 
 }
 
-
+/* ==== Media ====*/
 
 @media screen and (max-width: 600px){
  #apprendre, #projet, #stagiaire, #aider{
    min-height: 25vh;
  }
- .nav-wrapper {
-   margin-top: 0vh !important;
+ .video_header{
+   height: 0vh;
  }
-
- .slider {
-   height: 0vh !important;
+ .img_video{
+  display: none;
  }
 }
 
@@ -71,24 +89,10 @@ li.indicator-item.active{
  #apprendre, #projet, #stagiaire, #aider{
    min-height: 50vh;
  }
- .nav-wrapper {
-   margin-top: 0vh !important;
- }
-
- .slider {
-   height: 0vh !important;
- }
 }
 
 @media screen and (min-width: 992px){
  #apprendre, #projet, #stagiaire, #aider{
    min-height: 100vh;
- }
- .nav-wrapper {
-   margin-top: calc(100vh - 64px) !important;
- }
-
- .slider {
-   height: calc(100vh - 64px) !important;
  }
 }
