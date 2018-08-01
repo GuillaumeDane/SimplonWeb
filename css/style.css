@@ -1,21 +1,23 @@
-*{
+* {
   color: white;
+  font-family: roboto;
 }
 
-.nav_logo{
+.nav_logo {
   height: 60px;
   width: 80px;
 }
 
-.nav-wrapper{
-  margin-top: 300px !important;
+.nav-wrapper {
+  margin-top: calc(100vh - 64px) !important;
 }
 
-.slider{
-  height: 300px !important;
+.slider {
+  height: calc(100vh - 64px) !important;
 }
 
-#apprendre{
+#apprendre {
+  min-height: calc(100vh - 64px);
   padding: 20px;
   background-image: url("../img/img_1_color.jpeg");
   background-size: cover;
@@ -23,16 +25,13 @@
   transition: 1s;
 }
 
-#apprendre:hover{
+#apprendre:hover {
   -webkit-filter: grayscale(0%);
   transition: 1s;
 }
 
-page_1{
- size: 100vw;
-}
-
-#projet{
+#projet {
+  min-height: calc(100vh - 64px);
   padding: 20px;
   background-image: url("../img/img_2_color.jpg");
   background-size: cover;
@@ -40,12 +39,13 @@ page_1{
   transition: 1s;
 }
 
-#projet:hover{
+#projet:hover {
   -webkit-filter: grayscale(0%);
   transition: 1s;
 }
 
-#stagiaire{
+#stagiaire {
+  min-height: calc(100vh - 64px);
   padding: 20px;
   background-image: url("../img/img_3_color.jpg");
   background-size: cover;
@@ -53,12 +53,13 @@ page_1{
   transition: 1s;
 }
 
-#stagiaire:hover{
+#stagiaire:hover {
   -webkit-filter: grayscale(0%);
   transition: 1s;
 }
 
-#aider{
+#aider {
+  min-height: calc(100vh - 64px);
   padding: 20px;
   background-image: url("../img/img_4_color.jpg");
   background-size: cover;
@@ -66,7 +67,7 @@ page_1{
   transition: 1s;
 }
 
-#aider:hover{
+#aider:hover {
   -webkit-filter: grayscale(0%);
   transition: 1s;
 }

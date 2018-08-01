@@ -19,22 +19,25 @@
       <li>
         <img src="img/img_1.jpg">
         <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h3>Apprendre ?</h3>
         </div>
       </li>
       <li>
         <img src="img/img_2.jpg">
         <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h3>Proposer un projet ?</h3>
         </div>
       </li>
       <li>
         <img src="img/img_3.jpg">
         <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h3>Engager un Stagiaire ?</h3>
+        </div>
+      </li>
+      <li>
+        <img src="img/img_2.jpg">
+        <div class="caption right-align">
+          <h3>Nous aider ?</h3>
         </div>
       </li>
     </ul>
@@ -59,36 +62,38 @@
     </nav>
   </header>
 
-  <!-- Body -->
+  <!-- Main -->
 
-  <div class="row">
-    <div id="apprendre" class="center-align col s3">
-      <i class="material-icons">personal_video</i>
-      <p>Vous souhaitez</p><br>
-      <h2>Apprendre ?</h2>
-      <a class="waves-effect waves-light btn-small red accent-3">Cliquez-ici</a>
+  <main>
+    <div class="row">
+      <div id="apprendre" class="center-align col s3">
+        <i class="wow flip material-icons">personal_video</i>
+        <p>Vous souhaitez</p><br>
+        <h2>Apprendre ?</h2>
+        <a class="waves-effect waves-light btn-small red accent-3">Cliquez-ici</a>
+      </div>
+      <div id="projet" class="center-align col s3">
+        <i class="wow flip material-icons">bubble_chart</i>
+        <p>Vous souhaitez</p><br>
+        <h2>Proposer un projet ?</h2>
+        <a class="waves-effect waves-light btn-small red accent-3">Cliquez-ici</a>
+      </div>
+      <div id="stagiaire" class="center-align col s3">
+        <i class="wow flip material-icons">directions_run</i>
+        <p>Vous souhaitez</p><br>
+        <h2>Engager un Stagiaire ?</h2>
+        <a class="waves-effect waves-light btn-small red accent-3">Cliquez-ici</a>
+      </div>
+      <div id="aider" class="center-align col s3">
+        <i class="wow flip material-icons">help</i>
+        <p>Vous souhaitez</p><br>
+        <h2>Nous aider ?</h2>
+        <a class="waves-effect waves-light btn-small red accent-3">Cliquez-ici</a>
+      </div>
     </div>
-    <div id="projet" class="center-align col s3">
-      <i class="material-icons">bubble_chart</i>
-      <p>Vous souhaitez</p><br>
-      <h2>Proposer un projet ?</h2>
-      <a class="waves-effect waves-light btn-small red accent-3">Cliquez-ici</a>
-    </div>
-    <div id="stagiaire" class="center-align col s3">
-      <i class="material-icons">directions_run</i>
-      <p>Vous souhaitez</p><br>
-      <h2>Engager un Stagiaire ?</h2>
-      <a class="waves-effect waves-light btn-small red accent-3">Cliquez-ici</a>
-    </div>
-    <div id="aider" class="center-align col s3">
-      <i class="material-icons">help</i>
-      <p>Vous souhaitez</p><br>
-      <h2>Nous aider ?</h2>
-      <a class="waves-effect waves-light btn-small red accent-3">Cliquez-ici</a>
-    </div>
-  </div>
+  </main>
 
-  <!-- Nav -->
+  <!-- Footer -->
 
 
   <footer class="page-footer black">
@@ -121,7 +126,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
   <script type="text/javascript" src="js/wow.min.js"></script>
-  <script>new WOW({mobile: false}).init();</script>
+  <script>
+    new WOW({
+      mobile: false
+    }).init();
+  </script>
 </body>
 
 </html>
