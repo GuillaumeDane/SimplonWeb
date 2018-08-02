@@ -5,11 +5,11 @@
   font-family: roboto;
 }
 
-.row{
+.row {
   margin: 0px;
 }
 
-.video_header{
+.video_header {
   height: calc(100vh - 64px);
   width: 100wh;
 }
@@ -23,7 +23,7 @@
 
 /* ==== Video ====*/
 
-.img_video{
+.img_video {
   max-height: 350px;
   max-width: 400px;
   margin-top: 50px;
@@ -31,7 +31,7 @@
 
 /* ==== Main ====*/
 
-#apprendre, #projet, #stagiaire, #aider{
+#apprendre, #projet, #stagiaire, #aider {
   min-height: calc(100vh - 64px);
   padding: 20px;
   background-size: cover;
@@ -39,7 +39,7 @@
   transition: 1s;
 }
 
-#apprendre:hover, #projet:hover, #stagiaire:hover, #aider:hover{
+#apprendre:hover, #projet:hover, #stagiaire:hover, #aider:hover {
   -webkit-filter: grayscale(0%);
   transition: 1s;
 }
@@ -64,47 +64,49 @@
 
 /* ==== Contact ====*/
 
-.btn-floating{
+.btn-floating {
   position: fixed;
   margin-left: 10px;
   bottom: 10px;
-
 }
 
 /* ==== Media ====*/
 
-@media screen and (max-width: 600px){
- #apprendre, #projet, #stagiaire, #aider{
-   min-height: 25vh;
-   margin: 0px;
- }
- h2{
-   font-size: 3vh
- }
- .video_header{
-   height: 0vh;
- }
- .img_video{
-  display: none;
- }
+@media screen and (max-width: 600px) {
+  #apprendre, #projet, #stagiaire, #aider {
+    min-height: 25vh;
+    margin: 0px;
+  }
+  h2 {
+    font-size: 3vh
+  }
+  h1 {
+    display: none;
+  }
+  .video_header {
+    height: 0vh;
+  }
+  .img_video {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 600px){
- #apprendre, #projet, #stagiaire, #aider{
-   min-height: 50vh;
-   margin: 0px;
- }
- h2{
-   font-size: 4vh
- }
+@media screen and (min-width: 600px) {
+  #apprendre, #projet, #stagiaire, #aider {
+    min-height: 50vh;
+    margin: 0px;
+  }
+  h2 {
+    font-size: 4vh
+  }
 }
 
-@media screen and (min-width: 992px){
- #apprendre, #projet, #stagiaire, #aider{
-   min-height: 100vh;
-   margin: 0px;
- }
- h2{
-   font-size: 3vh
- }
+@media screen and (min-width: 992px) {
+  #apprendre, #projet, #stagiaire, #aider {
+    min-height: 100vh;
+    margin: 0px;
+  }
+  h2 {
+    font-size: 3vh
+  }
 }
