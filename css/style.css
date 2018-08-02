@@ -76,6 +76,10 @@
 @media screen and (max-width: 600px){
  #apprendre, #projet, #stagiaire, #aider{
    min-height: 25vh;
+   margin: 0px;
+ }
+ h2{
+   font-size: 3vh
  }
  .video_header{
    height: 0vh;
@@ -88,11 +92,19 @@
 @media screen and (min-width: 600px){
  #apprendre, #projet, #stagiaire, #aider{
    min-height: 50vh;
+   margin: 0px;
+ }
+ h2{
+   font-size: 4vh
  }
 }
 
 @media screen and (min-width: 992px){
  #apprendre, #projet, #stagiaire, #aider{
    min-height: 100vh;
+   margin: 0px;
+ }
+ h2{
+   font-size: 3vh
  }
 }
